@@ -1,0 +1,10 @@
+[{"model": "inventory.customer", "pk": 1, "fields": {"name": "KrijalSuwal", "email": "krijalsuwal67@gmail.com", "phone_number": "9861488819"}}, 
+{"model": "inventory.customer", "pk": 2, "fields": {"name": "krisha suwal", "email": "krishasuwal@gmail.com", "phone_number": "9865852315"}}, 
+{"model": "inventory.customer", "pk": 3, "fields": {"name": "Ashim joshi", "email": "ashim@gmail.com", "phone_number": "9865482314"}}, 
+{"model": "inventory.customer", "pk": 4, "fields": {"name": "Dijol duwal", "email": "dijol@gmail.com", "phone_number": "9854762135"}}, 
+{"model": "inventory.customer", "pk": 5, "fields": {"name": "Kritika Suwal", "email": "kritika@gmail.com", "phone_number": "9856217832"}}, 
+{"model": "inventory.product", "pk": 5, "fields": {"name": "Toothpaste", "price": 250, "description": "A paste or gel dentifrice with complex composition used with a toothbrush to clean and maintain the esthetics and health of teeth.", "quantity": 1000}}, 
+{"model": "inventory.product", "pk": 6, "fields": {"name": "Shampoo", "price": 500, "description": "typically in the form of a viscous liquid with some exception of waterless solid form such as a bar.", "quantity": 1000}}, {"model": "inventory.sale", "pk": 1, "fields": {"product": 5, "customer": 1, "quantity_sold": 2, "sale_date": "2024-02-03T10:51:57.884Z"}}, 
+{"model": "inventory.sale", "pk": 2, "fields": {"product": 6, "customer": 4, "quantity_sold": 2, "sale_date": "2024-02-03T10:52:40.944Z"}}, 
+{"model": "inventory.payment", "pk": 1, "fields": {"payment_status": false, "customer": 1, "products": 5, "amount": "500.00", "payment_date": "2024-02-03T10:51:06.120Z"}}, 
+{"model": "inventory.payment", "pk": 2, "fields": {"payment_status": true, "customer": 4, "products": 6, "amount": "1000.00", "payment_date": "2024-02-03T10:51:26.759Z"}}]
